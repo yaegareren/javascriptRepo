@@ -49,3 +49,11 @@ const myFunction = function(){
 
 console.log(typeof scoreValue) // Number 
 console.log(typeof myFunction) // Function 
+
+// Stack or Heap Memory 
+/*
+Stack - Primitive 
+Heap - Non Primitive 
+
+Primitive values are stored in stack and while accessing we receive a copy from stack but inside heap, we get referenced values. Changes made also affect the original value. 
+*/
